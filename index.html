@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal_Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/674fb0bd55.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="Picture/sp-logo_745848-257.avif" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contract</a></li>
+                    <i class=" fa-solid fa-rectangle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header_text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Sabuj</span> <br> From Bangladesh</h1>
+            </div>
+        </div>
+
+    </div>
+    <!--about section*-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Picture/planSabuj.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, a! Cum minimaillo ipsam soluta
+                        nam
+                        dolor vero? Enim similique rem eius magnam alias nesciunt recusandae fugit iure nemo
+                        cumque!Atque vitae totam explicabo, dolorum illum dicta sequi in et officiis ratione itaque
+                        harum repellendus reprehenderit facere vero nihil maxime?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI?UX</span><br>Designing web/App interfacing</li>
+                            <li><span>Wed development</span><br>Web app development</li>
+                            <li><span>UI?UX</span><br>Designing web/App interfacing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2 Years</span><br>Designing web/App interfacing</li>
+                            <li><span>3 Years</span><br>Web app development</li>
+                            <li><span>4 Years</span><br>Designing web/App interfacing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>good</span><br>Designing web/App interfacing</li>
+                            <li><span> development</span><br>Web app development</li>
+                            <li><span>Bast</span><br>Designing web/App interfacing</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- --------Service----------------------   -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>UI/Ux Design</h2>
+                        <p>I am a professional ui/ux design. If you searching a UI/UX design for your application then
+                            here is the right place for you.I can do any kind of user friendly UI/Ux for your website.
+                        </p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Full Stack development</h2>
+                        <p>I am a professional full stack MERN web developer. If you searching a web-developer for your
+                            business or any other activities then
+                            here is the right place for you.I can do any kind of user website for you.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-microphone"></i>
+                        <h2>App Design</h2>
+                        <p>Introducing our proficient app developer, adept at crafting innovative solutions tailored to
+                            your needs. With a passion for excellence and a knack for cutting-edge technology, we
+                            deliver apps that elevate your digital presence and drive success.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- portfolio -->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Picture/restaurant-management-system-main.jpg">
+                        <div class="layer">
+                            <h3>Ecommerce Website Using MERN</h3>
+                            <p>This application is made by MERN stack.Its a very user friendly Ecommerce Website.Where
+                                everything is very simple to user</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Picture/pexels-photo.jpg">
+                        <div class="layer">
+                            <h3>electronics gadget Shops</h3>
+                            <p>Step into our gadget emporium and embark on a journey of technological wonder. Explore an
+                                array of cutting-edge electronics, stylish accessories, and innovative gadgets designed
+                                to enhance your life. Discover the perfect fusion of function and style at our one-stop
+                                destination for all things tech.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Picture/im-01.jpg">
+                        <div class="layer">
+                            <h3>Inventory Management System</h3>
+                            <p>Introducing our Inventory Management System application project, designed to
+                                revolutionize your business operations. Seamlessly track inventory, streamline orders,
+                                and enhance efficiency with user-friendly features tailored to meet your unique needs.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <i class="fa-solid fa-envelope"></i>sabuj@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>01686504302</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="meaasge" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright"></i>Sabuj</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            // document.getElementById(tabname).classList.add("active-tab");
+            document.getElementById(tabname).classList.add("active-tab")
+
+
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
